@@ -1,0 +1,42 @@
+.banner-container {
+    width: 2000px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.banner-nav {
+    font-size:20px;
+    color: white;
+    position: relative;
+}
+
+h1.banner-title {
+    font-size:150px;
+    color:white;
+    text-align: left;
+}
+
+.grid-container {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    color: #fff;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+
+.banner-text {
+    font-size:30px;
+    padding: 30px;
+    color:white;
+}
