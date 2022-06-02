@@ -3,16 +3,6 @@ import '../styles/inicio.css'
 
 function Inicio() {
   return (
-      <div className="banner-container">
-        <nav className="header-nav">
-          <ul className="ul-container">
-            <li><a href="policias.js">Guardians</a></li>
-            <li><a href="#">Districts</a></li>
-            <image src="../images/badge.png"/>
-            <li><a href="#">source</a></li>
-            <li><a href="#">Resources</a></li>
-          </ul>
-        </nav>
 
       <div className='grid-container'>
         <h1 className='banner-title' >
