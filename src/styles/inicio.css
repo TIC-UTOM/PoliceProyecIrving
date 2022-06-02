@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.a {
+    font: size 120px;
+}
+
 .banner-nav {
     font-size:20px;
     color: white;

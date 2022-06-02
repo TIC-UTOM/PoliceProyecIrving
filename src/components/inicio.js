@@ -3,6 +3,26 @@ import '../styles/inicio.css'
 
 function Inicio() {
   return (
+      <div className="banner-container">
+        <nav className="header-nav">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Guardians</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="policias.js">Districts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="https://mpdcdn.azureedge.net/images/badge.png" alt="Logo Policia" height="138" width="98"/></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Source</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resourses</a>
+          </li>
+        </ul>
+        </nav>
 
       <div className='grid-container'>
         <h1 className='banner-title' >
@@ -24,6 +44,6 @@ function Inicio() {
       </div>
     </div>
   )
+  
 }
-
 export default Inicio;
