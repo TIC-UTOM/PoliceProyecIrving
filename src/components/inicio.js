@@ -39,7 +39,7 @@ function Inicio() {
         </h1>
 
         <div className='banner-text'>
-          <p className='banner-text'>To serve and protect. Those words guide us every day and define everything we do. Always have and always will. Our mission is to provide guidance and support to the Milwaukee communities we safeguard. We serve. We protect. Plain and simple.</p>
+          <p>To serve and protect. Those words guide us every day and define everything we do. Always have and always will. Our mission is to provide guidance and support to the Milwaukee communities we safeguard. We serve. We protect. Plain and simple.</p>
         </div>
       </div>
     </div>
