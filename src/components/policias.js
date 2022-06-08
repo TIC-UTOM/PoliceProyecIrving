@@ -4,8 +4,8 @@ import '../styles/policias.css';
 function Policias() {
   return (
     <section className="secction2">
-      <div className="oficial1">
-        <div className="Panel">
+      <div className="padre">
+        <div className="uno">
           <header className="pannel1">
             <h2><span>Oficila</span>Anna Ojdana</h2>
             <div className="icon">

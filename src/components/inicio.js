@@ -35,7 +35,6 @@ function Inicio() {
           <span className='parallaxx'>
           <span>GUARDIANS</span>
           </span>
-          
         </h1>
 
         <div className='banner-text'>
@@ -44,6 +43,5 @@ function Inicio() {
       </div>
     </div>
   )
-  
 }
 export default Inicio;
