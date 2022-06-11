@@ -1,9 +1,20 @@
-.secction2 {
-    width: 2000px;
-    height: 1000px;
-    align-items: center;
-    justify-content: center;
+.oficial1{
+    width: 2000%;
+    height: 900%;
     background-image: url(../images/guardian_01_2000x900.jpg);
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+    position: absolute;
+    left: 200px;
+}
+
+img {
+    maxWidth: 100%;
+}
+
+.info-oficial{
+    width: 500px;
+    height: 400px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 500px;
+    top: 200px;
 }
