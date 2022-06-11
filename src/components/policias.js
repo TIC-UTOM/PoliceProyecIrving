@@ -17,6 +17,7 @@ function Policias() {
             <p>Barely two months after graduating from the Police Academy, Officer Ojdana and her Field Training Officer answered a life-threatening domestic violence call. Not just for the victim, but for the officers as well.</p>
             <div className="btn_info">
               <a className="btn_info" href="#" Ver Su Historia></a>
+              <p> este es un arrafo para probar la ramas</p>
             </div>
         </div>
       </div>
