@@ -1,0 +1,15 @@
+.official2{
+    width: 800px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+}
+
+.info-oficial{
+    width: 500px;
+    height: 400px;
+    background-color:   rgb(255, 255, 255);
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}

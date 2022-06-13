@@ -1,5 +1,6 @@
 .oficial1{
     width: 1000px;
+<<<<<<< HEAD
     height:450px;
     position: absolute;
     left: 200px;
@@ -28,4 +29,22 @@
     position: absolute;
     left: 500px;
     top: 200px;
+=======
+    height:600px;
+    position: relative;
+    left: 80px;
+}
+
+.info-oficial-ojdana{
+    width: 500px;
+    height: 800px;
+    background-color: rgb(33, 63, 197);
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+
+.h2{
+    text-transform: uppercase; color: #ffffff
+>>>>>>> feature-policias
 }

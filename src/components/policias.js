@@ -9,6 +9,7 @@ function Policias() {
         <img
         src={oficial1}
         />
+<<<<<<< HEAD
         <div className="info-oficial">
           <h2>
             <span>Official</span><br/>
@@ -26,6 +27,9 @@ function Policias() {
         src={oficial1}
         />
         <div className="info-oficial-2">
+=======
+        <div className="info-oficial-ojdana">
+>>>>>>> feature-policias
           <h2>
             <span>Official</span><br/>
             Anna Ojdana
