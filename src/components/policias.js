@@ -9,27 +9,7 @@ function Policias() {
         <img
         src={oficial1}
         />
-<<<<<<< HEAD
-        <div className="info-oficial">
-          <h2>
-            <span>Official</span><br/>
-            Anna Ojdana
-          </h2>
-          <p>Barely two months after graduating from the Police Academy, Officer Ojdana and her Field Training Officer answered a life-threatening domestic violence call. Not just for the victim, but for the officers as well.</p>
-          <div>
-            <a>See Her Story</a>
-          </div>
-        </div>
-      </div>
-      
-      <div className="oficial2">
-      <img
-        src={oficial1}
-        />
-        <div className="info-oficial-2">
-=======
         <div className="info-oficial-ojdana">
->>>>>>> feature-policias
           <h2>
             <span>Official</span><br/>
             Anna Ojdana
