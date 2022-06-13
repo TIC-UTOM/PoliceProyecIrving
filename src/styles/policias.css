@@ -1,9 +1,19 @@
-.secction2 {
-    width: 2000px;
-    height: 1000px;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../images/guardian_01_2000x900.jpg);
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+.oficial1{
+    width: 1000px;
+    height:600px;
+    position: relative;
+    left: 80px;
+}
+
+.info-oficial-ojdana{
+    width: 500px;
+    height: 800px;
+    background-color: rgb(33, 63, 197);
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+
+.h2{
+    text-transform: uppercase; color: #ffffff
 }
