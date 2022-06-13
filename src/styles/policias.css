@@ -1,12 +1,27 @@
 .oficial1{
     width: 1000px;
     height:450px;
-    background-image: url(../images/guardian_01_2000x900.jpg);
     position: absolute;
     left: 200px;
 }
 
 .info-oficial{
+    width: 500px;
+    height: 400px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+.oficial2{
+    width: 1000px;
+    height:450px;
+    position: absolute;
+    left: 200px;
+}
+
+.info-oficial-2{
     width: 500px;
     height: 400px;
     background-color: aquamarine;
