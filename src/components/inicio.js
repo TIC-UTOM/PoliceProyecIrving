@@ -7,7 +7,7 @@ function Inicio() {
         <nav className="header-nav">
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="figueroa/*">Guardians</a>
+            <a class="nav-link active" aria-current="page" href="ojdana/*">Guardians</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="policias.js">Districts</a>
@@ -44,6 +44,6 @@ function Inicio() {
       </div>
     </div>
   )
-  
 }
+
 export default Inicio;

@@ -1,5 +1,5 @@
 import react from 'react';
-import '../styles/policias.css';
+import '../styles/ojdana.css';
 import oficial1 from '../images/guardian_01_2000x900.jpg'
 
 function Policias() {
