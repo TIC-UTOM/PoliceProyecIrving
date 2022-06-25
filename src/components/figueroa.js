@@ -1,8 +1,6 @@
 import react from 'react';
-import '../styles/oficial_figueroa.css';
+import '../styles/figueroa.css';
 import oficial2 from '../images/guardian_02_1600x1650.jpg'
-
-
 
 function Policiafigueroa() {
   return (
