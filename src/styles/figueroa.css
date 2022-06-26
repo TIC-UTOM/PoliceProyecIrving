@@ -1,8 +1,8 @@
 .official2{
-    width: 800px;
+    width: 1000px;
     height: 200px;
     position: relative;
-    left: 200px;
+    left: 400px;
 }
 
 .info-oficial{
@@ -10,6 +10,9 @@
     height: 400px;
     background-color:   rgb(255, 255, 255);
     position: absolute;
-    left: 500px;
+    left: -250px;
     top: 200px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
