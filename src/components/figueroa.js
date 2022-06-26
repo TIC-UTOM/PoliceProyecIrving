@@ -12,7 +12,7 @@ function Policiafigueroa() {
         <div className="info-oficial">
           <h2>
           <span>Official</span><br/>
-          Alberto Figueroa
+          Leticia Lopez
           </h2>
           <p>After finishing his shift, Officer Figueroa was on his way home when he noticed a man standing on an overpass bridge. Compelled to do the right thing, Officer Figueroa stopped to provide a helping hand.</p>
           <div>
