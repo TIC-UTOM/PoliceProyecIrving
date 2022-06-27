@@ -1,8 +1,27 @@
 .official2{
-    width: 1000px;
-    height: 200px;
+    width: 900px;
     position: relative;
     left: 400px;
+}
+
+.grid-container {
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(2, 0, 126);
+    max-width: auto;
+    max-height: 1000px;
+}
+
+h1.banner-titulo {
+    font-size:150px;
+    color:rgb(255, 255, 255);
+    text-align: left;
+}
+
+.banner-texto {
+    font-size:30px;
+    padding: 30px;
+    color:rgb(255, 255, 255);
 }
 
 .info-oficial{
@@ -15,4 +34,10 @@
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
     color: rgb(0, 0, 0);
+}
+
+.banner-text {
+    font-size:30px;
+    padding: 30px;
+    color:rgb(2, 0, 126);
 }

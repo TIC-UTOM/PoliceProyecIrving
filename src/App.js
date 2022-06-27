@@ -14,6 +14,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={<Inicio/>} />
+        <Route path="figueroa/*" element={<Policiafigueroa/>} />
         <Route path="ojdana/*" element={<Policias/>} />
       </Routes>
     </Router>
