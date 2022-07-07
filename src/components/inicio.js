@@ -2,6 +2,8 @@ import react from 'react';
 import '../styles/inicio.css'
 import oficial1 from '../images/policia1.jpg'
 import oficial2 from '../images/policia2.jpg'
+import facebook from '../images/facebook.png'
+import twitter from '../images/gorjeo.png'
 
 function Inicio() {
   return (
@@ -12,7 +14,7 @@ function Inicio() {
               <a class="nav-link active" aria-current="page" href="figueroa/*">Policias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="policias.js">Tenencias</a>
+              <a class="nav-link" href="tenencias/*">Tenencias</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
@@ -85,7 +87,7 @@ function Inicio() {
                     every day. More often than not, we only hear one side of their stories. They aren’t household names. A 
                     lot of what they do is done behind the scenes, out of the spotlight. The everyday acts of kindness and 
                     compassion sometimes get overlooked or taken for granted. But if you have a story you’d like to share, 
-                    we’d love to hear from you. <br/>
+                    we’d love3fc to hear from you. <br/>
                   </p>
                 </div>
               </div>
@@ -94,7 +96,8 @@ function Inicio() {
         </div>
         <div className="footer">
         <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
-
+        <a class="nav-link" href="/"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
+        <a class="nav-link" href="/"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
         </div>
       </div>
   )

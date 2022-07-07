@@ -12,11 +12,6 @@
     text-align: left;
 }
 
-.parrallax {
-    background: #fff fixed none repeat 50% 50%;
-    background-size: cover;
-}
-
 p.banner-text {
     font-size:30px;
     padding: 30px;
@@ -24,6 +19,8 @@ p.banner-text {
 }
 
 .seccion-abajo {
+    width: 900px;
+    height: 100%;
     position: relative;
     align-items: center;
     justify-content: center;
