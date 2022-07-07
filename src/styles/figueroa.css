@@ -1,10 +1,9 @@
-.official2{
-    width: 900px;
-    position: relative;
-    left: 400px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.grid-container {
+.banner-container {
     align-items: center;
     justify-content: center;
     background-color:rgb(2, 0, 126);
@@ -12,32 +11,50 @@
     max-height: 1000px;
 }
 
-h1.banner-titulo {
+.banner-title {
     font-size:150px;
-    color:rgb(255, 255, 255);
+    color:rgb(2, 0, 126);
     text-align: left;
 }
 
-.banner-texto {
-    font-size:30px;
-    padding: 30px;
-    color:rgb(255, 255, 255);
-}
-
-.info-oficial{
-    width: 500px;
-    height: 400px;
-    background-color:   rgb(255, 255, 255);
-    position: absolute;
-    left: -250px;
-    top: 200px;
-    font-family: Helvetica, Arial, sans-serif;
+.izquierda {
+    background-color: #223a4d;
+    height: 100vh;
+    width: 50%;
     text-align: center;
-    color: rgb(0, 0, 0);
 }
 
-.banner-text {
-    font-size:30px;
-    padding: 30px;
-    color:rgb(2, 0, 126);
+.derecha {
+    background-image: url(../images/policia1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+.creative {
+    color:#ecb419;
+}
+
+h1 {
+    font-size:60px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+    color:#223a4d;
+    margin-top: 90px;
+    
+}
+
+p {
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-top: 90px;
 }
