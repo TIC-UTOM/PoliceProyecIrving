@@ -7,7 +7,7 @@ import twitter from '../images/gorjeo.png'
 
 function Inicio() {
   return (
-      <div className="banner-container">
+      <div className="banner-containerx">
         <nav className="header-nav">
           <ul class="nav justify-content-center">
             <li class="nav-item">
@@ -28,24 +28,23 @@ function Inicio() {
           </ul>
         </nav>
 
-        <div>
-          <h1 className='banner-title' >
-            <span className='parallax'>
-            <span>POLICIA</span>
-            </span><br/>
-            <span className='parallax'>
-            <span>DE</span>
-            </span><br/>
-            <span className='parallaxx'>
-            <span>MICHOACAN</span>
+        <div className='div-posicionado'>
+          <h1 className='banner-title1'>
+            <span>
+              <span className='parallax'>POLICIA </span>
+              </span>
+              <span className='parallax'>
+              <span>DE </span>
+              </span>
+              <span className='parallaxx'>
+              <span>MICHOACAN</span>
             </span>
-            
           </h1>
 
             <div className='banner-text'>
-            <p>La Misión de la Policía Auxiliar es proteger la integridad física, los bienes, valores, mercancías de los particulares, empresarios, así como de las instituciones públicas y privadas de quienes contratan nuestros servicios dentro del límite territorial del estado de Michoacán, mediante los servicios de protección.</p>
+            <p className='texto-informativo'>La Misión de la Policía Auxiliar es proteger la integridad física, los bienes, valores, mercancías de los particulares, empresarios, así como de las instituciones públicas y privadas de quienes contratan nuestros servicios dentro del límite territorial del estado de Michoacán, mediante los servicios de protección.</p>
             </div>
-          </div>
+        </div>
 
         <div className="parrallax">
           <section className="secction2">

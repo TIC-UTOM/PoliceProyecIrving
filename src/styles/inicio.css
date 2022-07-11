@@ -1,21 +1,36 @@
-.banner-container {
-    align-items: center;
-    justify-content: center;
+.banner-containerx {
     background-image: url(../images/background2.jpg);
     max-width: auto;
     max-height: 1000px;
 }
 
-.banner-title {
-    font-size:150px;
-    color:rgb(2, 0, 126);
-    text-align: left;
+.div-posicionado {
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 110px;
 }
 
-p.banner-text {
-    font-size:30px;
-    padding: 30px;
-    color:white;
+.banner-title1 {
+    font-size:12vw;
+    color: #223a4d;
+    position: relative;
+    top: -100px;
+}
+
+.banner-text {
+    width: auto;
+    height: 90%;
+    position: relative;
+    left: 150px;
+}
+
+.texto-informativo {
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    width:auto;
+    position: relative;
+    top: -100px;
 }
 
 .seccion-abajo {
