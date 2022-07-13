@@ -12,15 +12,25 @@ body {
 }
 
 .banner-title {
-    font-size:150px;
-    color:rgb(2, 0, 126);
-    text-align: left;
+    font-size:12vw;
+    color: #ffffff;
+    position: relative;
+    top: -100px;
+}
+
+.banner-texto {
+    text-align: center;
+    height: 100vh;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    position: relative;
+    top: -100px;
 }
 
 .izquierda {
     background-color: #223a4d;
     height: 100vh;
-    width: 50%;
+    width: 100vh;
     text-align: center;
 }
 
@@ -28,7 +38,7 @@ body {
     background-image: url(../images/policia1.jpg);
     background-size: cover;
     background-position: center;
-    width: 50%;
+    width: 100vh;
     height: 100vh;
     text-align: center;
 }
@@ -53,8 +63,29 @@ h1 {
 
 p {
     font-size: 19px;
-    line-height: 30px;
     width: 50%;
     margin: auto;
+    line-height: 30px;
+    color: #fff;
     margin-top: 90px;
 }
+
+.derechas {
+    background-image: url(../images/policia2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+}
+
+.footer2 {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: #223a4d;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
