@@ -56,7 +56,7 @@
               <div className="izquierda">
                 <p className="info">Apenas dos meses después de graduarse de la Academia de Policía, el official Hernandez y su Oficial de Entrenamiento de Campo respondieron una llamada de violencia doméstica que amenazaba su vida. No solo para la víctima, sino también para los oficiales.</p>
                 <div>
-                  <button type="button" class="btn btn-outline-warning">Ver historia</button>
+                <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
                 </div>
               </div>
             </section>
@@ -65,7 +65,7 @@
               <div className="izquierdas">
               <p>After finishing his shift, Officer Figueroa was on his way home when he noticed a man standing on an overpass bridge. Compelled to do the right thing, Officer Figueroa stopped to provide a helping hand.</p>
               <div>
-                  <button type="button" class="btn btn-outline-warning">Ver historia</button>
+              <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
                 </div>
               </div>
               <div className="derechas">
@@ -85,15 +85,16 @@
               <div className="izquierda">
                 <p className="info">Apenas dos meses después de graduarse de la Academia de Policía, el official Hernandez y su Oficial de Entrenamiento de Campo respondieron una llamada de violencia doméstica que amenazaba su vida. No solo para la víctima, sino también para los oficiales.</p>
                 <div>
-                  <button type="button" class="btn btn-outline-warning">Ver historia</button>
+                <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
                 </div>
               </div>
             </section>
 
           <div className="footer">
             <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
-            <a class="nav-link" href="/"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
-            <a class="nav-link" href="/"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
+            <a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
+            <a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
+            <p><a href="/">Policia de Michoacán</a> © 2022. <a href="ojdana/*" target="_blank">Terminos y Condiciones</a></p>
           </div>
         </div>
       )

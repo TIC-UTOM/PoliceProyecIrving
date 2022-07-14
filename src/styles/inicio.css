@@ -4,6 +4,19 @@
     max-height: 1000px;
 }
 
+.header-nav {
+    font-size: 30px;
+    font-family: "Helvetica Neue";
+}
+
+.nav-item {
+    margin-top: 50px;
+}
+
+.nav-link {
+    color: #ecb419;
+}
+
 .div-posicionado {
     width: 100%;
     height: auto;
@@ -35,7 +48,7 @@
     color:rgb(255, 255, 255);
     width: 1300px;
     position: absolute;
-    top: -100px;
+    top: -120px;
     left: 90px;
 }
 
@@ -122,3 +135,4 @@
     text-align: center;
     color: rgb(0, 0, 0);
 }
+

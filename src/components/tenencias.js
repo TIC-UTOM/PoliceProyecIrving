@@ -57,7 +57,7 @@
               </h2>
               <p>su principal actividad económica es la agricultura.</p>
               <div>
-                <button type="button" class="btn btn-outline-warning">Ver historia</button>
+              <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver mas</button></a>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
                 </h2>
                 <p>Su principal actividad económica es la agricultura y las artesanías.</p>
                 <div>
-                  <button type="button" class="btn btn-outline-warning">Ver historia</button>
+                <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver mas</button></a>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@
                 </h2>
                 <p>su principal actividad económica es la artesanal y la agricultura.</p>
                 <div>
-                  <button type="button" class="btn btn-outline-warning">Ver historia</button>
+                <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver mas</button></a>
                 </div>
               </div>
             </div>
@@ -97,8 +97,9 @@
             </div>
             <div className="footers">
             <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
-            <a class="nav-link" href="/"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
-            <a class="nav-link" href="/"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
+            <a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
+            <a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
+            <p><a href="/">Policia de Michoacán</a> © 2022. <a href="ojdana/*" target="_blank">Terminos y Condiciones</a></p>
           </div>
     </div>
   )

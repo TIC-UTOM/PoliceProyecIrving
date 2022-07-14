@@ -32,7 +32,7 @@ section{
     height: auto;
     color:rgb(255, 255, 255);
     position: relative;
-    top: -100px;
+    top: -150px;
 }
 
 .izquierda {
@@ -52,6 +52,10 @@ section{
 .parrallax {
     background: #fff fixed no-repeat 50% 50%;
     background-size: cover;
+}
+
+#super.news {
+    background-image: url(../images/bus.jpg);
 }
 
 #pantalla-dividida {
@@ -80,6 +84,10 @@ section{
     width: 100vh;
     height: 100vh;
     text-align: center;
+}
+
+#super.news {
+    display: flex;
 }
 
 #pantalla-dividida {

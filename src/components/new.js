@@ -1,0 +1,50 @@
+import facebook from '../images/facebook.png'
+import twitter from '../images/gorjeo.png'
+
+
+function News(){
+  return (
+    <div>
+        <nav className="header-nav">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="figueroa/*">Policias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tenencias/*">Tenencias</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Usuarios</a>
+          </li>
+        </ul>
+      </nav>    
+    
+      <section className="parrallax" id="pantalla-dividida">
+      <div className="derecha">
+        <h1><span class="creative">Official</span><br/>
+        Antonio Hernandez
+        </h1>
+        </div>
+      <div className="izquierda">
+        <p className="info">Apenas dos meses después de graduarse de la Academia de Policía, el official Hernandez y su Oficial de Entrenamiento de Campo respondieron una llamada de violencia doméstica que amenazaba su vida. No solo para la víctima, sino también para los oficiales.</p>
+      </div>
+      </section>
+      <div className="footer">
+            <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+            <a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
+            <a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
+            <p><a href="/">Policia de Michoacán</a> © 2022. <a href="ojdana/*" target="_blank">Terminos y Condiciones</a></p>
+          </div>
+    </div>
+
+  )
+}
+
+
+export default News;
