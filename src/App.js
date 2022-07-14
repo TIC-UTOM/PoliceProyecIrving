@@ -7,8 +7,9 @@ import {
 } from "react-router-dom";
 import Inicio from './components/inicio';
 import Policias from './components/ojdana';
-import Policiafigueroa from './components/figueroa'
-import Tenencias from './components/tenencias'
+import Policiafigueroa from './components/figueroa';
+import Tenencias from './components/tenencias';
+import Noticias from './components/noticias';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="figueroa/*" element={<Policiafigueroa/>} />
         <Route path="ojdana/*" element={<Policias/>} />
         <Route path="tenencias/*" element={<Tenencias/>} />
+        <Route path="noticias/*" element={<Noticias/>} />
       </Routes>
     </Router>
   );

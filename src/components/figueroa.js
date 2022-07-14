@@ -21,10 +21,10 @@
                 <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Source</a>
+                  <a class="nav-link" href="noticias">Noticias</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Resourses</a>
+                  <a class="nav-link" href="#">Usuarios</a>
                 </li>
               </ul>
             </nav>
@@ -47,12 +47,12 @@
                 </div>
           </div>
 
-            <section id="pantalla-dividida">
+            <section className="parrallax" id="pantalla-dividida">
               <div className="derecha">
-              <h1><span class="creative">Official</span><br/>
-              Antonio Hernandez
-              </h1>
-              </div>
+                <h1><span class="creative">Official</span><br/>
+                Antonio Hernandez
+                </h1>
+                </div>
               <div className="izquierda">
                 <p className="info">Apenas dos meses después de graduarse de la Academia de Policía, el official Hernandez y su Oficial de Entrenamiento de Campo respondieron una llamada de violencia doméstica que amenazaba su vida. No solo para la víctima, sino también para los oficiales.</p>
                 <div>
@@ -61,8 +61,8 @@
               </div>
             </section>
 
-            <section id="pantalla-dividida">
-              <div className="izquierda">
+            <section className="parrallax" id="pantalla-dividida2">
+              <div className="izquierdas">
               <p>After finishing his shift, Officer Figueroa was on his way home when he noticed a man standing on an overpass bridge. Compelled to do the right thing, Officer Figueroa stopped to provide a helping hand.</p>
               <div>
                   <button type="button" class="btn btn-outline-warning">Ver historia</button>
@@ -76,10 +76,10 @@
               </div>
             </section>
 
-            <section id="pantalla-dividida">
+            <section className="parrallax" id="pantalla-dividida3">
               <div className="derecha">
               <h1><span class="creative">Official</span><br/>
-              Antonio Hernandez
+              Luis Estrada
               </h1>
               </div>
               <div className="izquierda">

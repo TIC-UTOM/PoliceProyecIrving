@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pa-izquierda {
+    background-color: #223a4d;
+    height: 3700px;
+    width: 100vh;
+}
+
+.pa-derecha {
+    background-image: url(../images/policia2.2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+    position: sticky;
+}
+
+#pantallas-divididas {
+    display: flex;
+}
+
+.creative {
+    color:#ecb419;
+}
+
+h1 {
+    font-size:60px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+    color:#223a4d;
+    margin-top: 90px;
+    
+}
+
+p {
+    font-size: 19px;
+    width: 50%;
+    margin: auto;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 90px;
+}
+
+.card {
+    margin-top: 50px;
+    background-color:transparent;
+    color: #fff;
+}
+
+.card-text {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
