@@ -18,7 +18,7 @@ return (
             <a class="nav-link" href="tenencias/*">Tenencias</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+            <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="noticias">Noticias</a>
@@ -39,7 +39,7 @@ return (
             </span>
             <span className='parallaxx'>
             <span>MICHOACAN</span>
-          </span>
+          </span> 
         </h1>
 
           <div className='banner-text'>
@@ -58,7 +58,7 @@ return (
               </h2>
               <p>Apenas dos meses después de graduarse de la Academia de Policía, el official Hernandez y su Oficial de Entrenamiento de Campo respondieron una llamada de violencia doméstica que amenazaba su vida. No solo para la víctima, sino también para los oficiales.</p>
               <div>
-                <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
+                <a href="new/*"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
               </div>
             </div>
           </div>

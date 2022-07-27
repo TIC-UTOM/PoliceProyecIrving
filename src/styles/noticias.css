@@ -11,6 +11,11 @@ body {
     width: 100vh;
 }
 
+#morra-fija {
+    position: sticky;
+    top: 0;
+}
+
 .pa-derecha {
     background-image: url(../images/policia2.2.png);
     background-size: cover;
@@ -19,6 +24,7 @@ body {
     height: 100vh;
     text-align: center;
     position: sticky;
+    top: 0;
 }
 
 #pantallas-divididas {

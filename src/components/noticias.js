@@ -34,7 +34,7 @@ function Noticias(){
                 Mas recientes
                 </h1>
                 </div>
-              <div className="pa-izquierda"> 
+              <div className="pa-izquierda" id="morra-fija"> 
 
               <div class="card text-center">
                 <div class="card-header">
