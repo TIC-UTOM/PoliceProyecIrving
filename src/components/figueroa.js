@@ -8,29 +8,36 @@
     function Policiafigueroa() {
       return (
         <div>
-          <div className='banner-container'>
-            <nav className="header-nav">
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="figueroa/*">Policias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="tenencias/*">Tenencias</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="noticias">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Usuarios</a>
-                </li>
-              </ul>
+          <div className='banner-containers'>
+            <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+              <div class="container-fluid justify-content-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/figueroa">Policias</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/tenencias">Tenencias</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/noticias">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/apirest">Api Rest</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </nav>
 
                 <div className='div-posicionado'>
-                  <h1 className='banner-title' >
+                  <h1 className='banner-titlee' >
                     <span className='parallax'>
                     <span>CONOCE </span>
                     </span>
@@ -42,7 +49,7 @@
                     </span>
                   </h1>
                     <div className='banner-texto'>
-                      <p>La Misión de la Policía Auxiliar es proteger la integridad física, los bienes, valores, mercancías de los particulares, empresarios, así como de las instituciones públicas y privadas de quienes contratan nuestros servicios dentro del límite territorial del estado de Michoacán, mediante los servicios de protección.</p>
+                      <p className='texto-descrip'>La Misión de la Policía Auxiliar es proteger la integridad física, los bienes, valores, mercancías de los particulares, empresarios, así como de las instituciones públicas y privadas de quienes contratan nuestros servicios dentro del límite territorial del estado de Michoacán, mediante los servicios de protección.</p>
                     </div>
                 </div>
           </div>

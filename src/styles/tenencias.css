@@ -1,5 +1,5 @@
-.banner-containerx {
-    background-image: url(../images/background2.jpg);
+.banner-containerr {
+    background-color: #10a6d4;  
     max-width: auto;
     max-height: 1000px;
 }
@@ -40,14 +40,14 @@
     color:#3cff00;
 }
 
-.banner-text {
+.banner-texts {
     width: 100%;
     height: auto;
     position: relative;
     text-align: center;
 }
 
-.texto-informativo {
+.texto-informativos {
     text-align: center;
     font-size:20px;
     color:rgb(255, 255, 255);

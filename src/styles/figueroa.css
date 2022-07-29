@@ -12,7 +12,7 @@ section{
     padding: 0;  
 }
 
-.banner-container {
+.banner-containers {
     align-items: center;
     justify-content: center;
     background-color:rgb(2, 0, 126);
@@ -20,19 +20,33 @@ section{
     max-height: 1000px;
 }
 
-.banner-title {
+.banner-titlee {
     font-size:12vw;
     color: #ffffff;
     position: relative;
-    top: -100px;
+    top: -120px;
 }
 
 .banner-texto {
-    text-align: center;
+    width: auto;
     height: auto;
+    text-align: center;
     color:rgb(255, 255, 255);
     position: relative;
-    top: -150px;
+}
+
+.texto-descrip {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 3.5em;
+    font-size: 24px;
+    color: ffffff;
+    position: absolute;
+    top: -360px;
+    left: 90px;
+    line-height: 1.5;
+    height: auto;
 }
 
 .izquierda {

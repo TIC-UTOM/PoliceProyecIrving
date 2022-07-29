@@ -5,25 +5,32 @@ import twitter from '../images/gorjeo.png'
 function News(){
   return (
     <div>
-        <nav className="header-nav">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="figueroa/*">Policias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tenencias/*">Tenencias</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Noticias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Usuarios</a>
-          </li>
-        </ul>
-      </nav>    
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+            <div class="container-fluid justify-content-center">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/figueroa">Policias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/tenencias">Tenencias</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/noticias">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/apirest">Api Rest</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>    
     
       <section className="parrallax" id="pantalla-dividida">
       <div className="derecha">

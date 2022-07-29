@@ -8,9 +8,9 @@
 
   function Tenencias() {
     return (
-      <div className="banner-containerx">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
+      <div className="banner-containerr">
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+            <div class="container-fluid justify-content-center">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -49,8 +49,8 @@
           </span>
         </h1>
 
-          <div className='banner-text'>
-            <p className='texto-informativo'>Maravatío esta constituido una cabecera municipal, 109 encargados del orden y 10 tenencias  y 113 comunidades</p>
+          <div className='banner-texts'>
+            <p className='texto-informativos'>Maravatío esta constituido una cabecera municipal, 109 encargados del orden y 10 tenencias  y 113 comunidades</p>
           </div>
       </div>
 
@@ -79,7 +79,7 @@
                 </h2>
                 <p>Su principal actividad económica es la agricultura y las artesanías.</p>
                 <div>
-                <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver mas</button></a>
+                <a href="/new"><button type="tenencias" class="btn btn-outline-warning">Ver mas</button></a>
                 </div>
               </div>
             </div>

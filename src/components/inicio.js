@@ -1,5 +1,6 @@
 import react from 'react';
 import '../styles/inicio.css'
+import fondo from '../images/background2.jpg'
 import oficial1 from '../images/policia1.jpg'
 import oficial2 from '../images/policia2.jpg'
 import oficial3 from '../images/policia3.png'
@@ -8,50 +9,49 @@ import twitter from '../images/gorjeo.png'
 
 function Inicio() {
 return (
-    <div className="banner-containerx">
-      <nav className="header-nav">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="figueroa/*">Policias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tenencias/*">Tenencias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="noticias">Noticias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="apirest" target="_blank">Api Rest</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div className='div-posicionado'>
-        <h1 className='banner-title1'>
-          <span>
-            <span className='parallax'>POLICIA </span>
-            </span>
-            <span className='parallax'>
-            <span>DE </span>
-            </span>
-            <span className='parallaxx'>
-            <span>MICHOACAN</span>
-          </span> 
-        </h1>
-
-          <div className='banner-text'>
-            <p className='texto-informativo'>La Misión de la Policía Auxiliar es proteger la integridad física, los bienes, valores, mercancías de los particulares, empresarios, así como de las instituciones públicas y privadas de quienes contratan nuestros servicios dentro del límite territorial del estado de Michoacán, mediante los servicios de protección.</p>
-          </div>
+    <div className="banner-container">
+      <div clasName="header1">
+          <nav class="navbar navbar-expand-sm navbar-light justify-content-end">
+            <div class="container-fluid justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/figueroa">Policias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/tenencias">Tenencias</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/noticias">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/apirest">Api Rest</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div className='div-posicionado'>
+          <h1 className='banner-title1'>
+            <span>
+              <span>POLICIA DE MICHOACAN</span>
+            </span> 
+          </h1>
+            <div className='banner-text'>
+              <p className='texto-informativo'>La Misión de la Policía Auxiliar es proteger la integridad física, los bienes, valores, mercancías de los particulares, empresarios, así como de las instituciones públicas y privadas de quienes contratan nuestros servicios dentro del límite territorial del estado de Michoacán, mediante los servicios de protección.</p>
+            </div>
+        </div>
       </div>
 
-          <div className="policia-hdz">
-            <img
-            src={oficial1}
-            />
-            <div className="info-policiahdz">
+          <div className="policia-hdzz">
+            <img className="img-hdz" src={oficial1} width="900" height="600"/>
+            <div className="info-policiahdzz">
               <h2>
                 <span class="creative">Official</span><br/>
                 Antonio Hernandez
