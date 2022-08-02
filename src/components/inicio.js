@@ -10,7 +10,6 @@ import twitter from '../images/gorjeo.png'
 function Inicio() {
 return (
     <div className="banner-container">
-      <div clasName="header1">
           <nav class="navbar navbar-expand-sm navbar-light justify-content-end">
             <div class="container-fluid justify-content-end">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +36,7 @@ return (
               </div>
             </div>
           </nav>
-        <div className='div-posicionado'>
+        <div className='div-posicionados'>
           <h1 className='banner-title1'>
             <span>
               <span>POLICIA DE MICHOACAN</span>
@@ -47,11 +46,10 @@ return (
               <p className='texto-informativo'>La Misión de la Policía Auxiliar es proteger la integridad física, los bienes, valores, mercancías de los particulares, empresarios, así como de las instituciones públicas y privadas de quienes contratan nuestros servicios dentro del límite territorial del estado de Michoacán, mediante los servicios de protección.</p>
             </div>
         </div>
-      </div>
 
-          <div className="policia-hdzz">
-            <img className="img-hdz" src={oficial1} width="900" height="600"/>
-            <div className="info-policiahdzz">
+          <div className="policia-hdz">
+            <img className="img-hdz" src={oficial1} />
+            <div className="info-policiahdz">
               <h2>
                 <span class="creative">Official</span><br/>
                 Antonio Hernandez
