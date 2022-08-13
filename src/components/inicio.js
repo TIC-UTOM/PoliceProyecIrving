@@ -6,25 +6,26 @@ import oficial2 from '../images/policia2.jpg'
 import oficial3 from '../images/policia3.png'
 import facebook from '../images/facebook.png'
 import twitter from '../images/gorjeo.png'
+import logopoli from '../images/policialogo.png'
 
 function Inicio() {
 return (
     <div className="banner-container">
-          <nav class="navbar navbar-expand-sm navbar-light justify-content-end">
-            <div class="container-fluid justify-content-end">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="nav justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/figueroa">Policias</a>
-                  </li>
+          <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+              <div class="container-fluid justify-content-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/policias">Policias</a>
+                    </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/tenencias">Tenencias</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+                  <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia" height="150" width="150" /></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/noticias">Noticias</a>
@@ -42,14 +43,14 @@ return (
               <span>POLICIA DE MICHOACAN</span>
             </span> 
           </h1>
-            <div className='banner-text'>
+            <div>
               <p className='texto-informativo'>La Misión de la Policía Auxiliar es proteger la integridad física, los bienes, valores, mercancías de los particulares, empresarios, así como de las instituciones públicas y privadas de quienes contratan nuestros servicios dentro del límite territorial del estado de Michoacán, mediante los servicios de protección.</p>
             </div>
         </div>
 
-          <div className="policia-hdz">
+          <div className="policia-hdzz">
             <img className="img-hdz" src={oficial1} />
-            <div className="info-policiahdz">
+            <div className="info-policiahdzz">
               <h2>
                 <span class="creative">Official</span><br/>
                 Antonio Hernandez
@@ -61,9 +62,9 @@ return (
             </div>
           </div>
 
-            <div className="policia-lopez">
+            <div className="policia-lopezz">
               <img src={oficial2} />
-              <div className="info-policialopez">
+              <div className="info-policialopezz">
                 <h2>
                 <span class="creative">Official</span><br/>
                 Leticia Lopez
@@ -75,9 +76,9 @@ return (
               </div>
             </div>
 
-            <div className="policia-estrada">
+            <div className="policia-estradaa">
               <img src={oficial3} />
-              <div className="info-policia-estrada">
+              <div className="info-policia-estradaa">
                 <h2>
                 <span class="creative">Official</span><br/>
                 Luis Estrada
@@ -101,7 +102,7 @@ return (
                 </p>
             </div>
             <div className="footers">
-            <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+            <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia Michoacan" height="150" width="200"/></a>
             <a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
             <a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
             <p><a href="/">Policia de Michoacán</a> © 2022. <a href="ojdana/*" target="_blank">Terminos y Condiciones</a></p>

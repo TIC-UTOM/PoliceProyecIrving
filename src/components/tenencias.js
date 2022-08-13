@@ -5,6 +5,7 @@
   import uripitio from '../images/Uripitio.jpg'
   import facebook from '../images/facebook.png'
   import twitter from '../images/gorjeo.png'
+  import logopoli from '../images/policialogo.png'
 
   function Tenencias() {
     return (
@@ -23,7 +24,7 @@
                     <a class="nav-link" href="/tenencias">Tenencias</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+                  <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia" height="150" width="150" /></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/noticias">Noticias</a>
@@ -36,29 +37,20 @@
             </div>
           </nav>
 
-      <div className='div-posicionado'>
+      <div className='div-posicionados'>
         <h1 className='banner-title1'>
           <span>
-            <span className='parallax'>TENENCIAS </span>
-            </span>
-            <span className='parallax'>
-            <span>DE </span>
-            </span>
-            <span className='parallaxx'>
-            <span>MARAVATIO</span>
+          <span>TENENCIAS DE MARAVATIO</span>
           </span>
         </h1>
-
-          <div className='banner-texts'>
-            <p className='texto-informativos'>Maravatío esta constituido una cabecera municipal, 109 encargados del orden y 10 tenencias  y 113 comunidades</p>
+          <div>
+            <p className='texto-informativo'>Maravatío esta constituido una cabecera municipal, 109 encargados del orden y 10 tenencias  y 113 comunidades</p>
           </div>
       </div>
 
-          <div className="policia-hdz">
-            <img
-            src={tunga}
-            />
-            <div className="info-policiahdz">
+          <div className="policia-hdzz">
+            <img src={tunga} />
+            <div className="info-policiahdzz">
               <h2>
                 <span class="creativa">Tenencia de </span><br/>
                 San Pedro Tungareo
@@ -70,9 +62,9 @@
             </div>
           </div>
 
-            <div className="policia-lopez">
+            <div className="policia-lopezz">
               <img src={snmike} />
-              <div className="info-policialopez">
+              <div className="info-policialopezz">
                 <h2>
                 <span class="creativa">Tenecia de</span><br/>
                 San Miguel Curahuango
@@ -86,7 +78,7 @@
 
             <div className="policia-estrada">
               <img src={uripitio} />
-              <div className="info-policia-estrada">
+              <div className="info-policia-estradaa">
                 <h2>
                 <span class="creativa">Tenecia de </span><br/>
                 Uripitio
@@ -104,7 +96,7 @@
                 </p>
             </div>
             <div className="footers">
-            <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+            <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia Michoacan" height="150" width="200"/></a>
             <a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
             <a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
             <p><a href="/">Policia de Michoacán</a> © 2022. <a href="ojdana/*" target="_blank">Terminos y Condiciones</a></p>

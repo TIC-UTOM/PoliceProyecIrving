@@ -12,41 +12,26 @@ section{
     padding: 0;  
 }
 
-.banner-containers {
-    align-items: center;
-    justify-content: center;
-    background-color:rgb(2, 0, 126);
-    max-width: auto;
-    max-height: 1000px;
-}
-
-.banner-titlee {
-    font-size:12vw;
-    color: #ffffff;
-    position: relative;
-    top: -120px;
-}
-
-.banner-texto {
+.texto-descriptivo {
     width: auto;
-    height: auto;
-    text-align: center;
-    color:rgb(255, 255, 255);
-    position: relative;
-}
-
-.texto-descrip {
-    width: auto;
-    height: auto;
     text-align: center;
     padding: 3.5em;
-    font-size: 24px;
-    color: ffffff;
     position: absolute;
-    top: -360px;
-    left: 90px;
     line-height: 1.5;
     height: auto;
+    margin: -290px 100px;
+}
+
+@media screen and (max-width: 550px) {
+    .texto-descriptivo {
+        text-align: center;
+        padding: 3.5em;
+        font-size:2vw;
+        color: ffffff;
+        margin: -230px 0px;
+        position: absolute;
+        left: 100px;
+    }
 }
 
 .izquierda {
@@ -54,6 +39,18 @@ section{
     height: 100vh;
     width: 100vh;
     text-align: center;
+}
+
+.info{
+    width: auto;
+    height: auto;
+    margin-top: 30%;
+}
+
+.nombres {
+    width: auto;
+    height: auto;
+    margin-top: 30%;
 }
 
 .izquierdas {
@@ -128,15 +125,6 @@ h1 {
     color:#223a4d;
     margin-top: 90px;
     
-}
-
-p {
-    font-size: 19px;
-    width: 50%;
-    margin: auto;
-    line-height: 30px;
-    color: #fff;
-    margin-top: 90px;
 }
 
 .footer {

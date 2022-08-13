@@ -2,6 +2,7 @@ import react from "react";
 import '../styles/noticias.css';
 import facebook from '../images/facebook.png'
 import twitter from '../images/gorjeo.png'
+import logopoli from '../images/policialogo.png'
 
 
 
@@ -22,7 +23,7 @@ function Noticias(){
                     <a class="nav-link" href="/tenencias">Tenencias</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+                  <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia" height="150" width="150" /></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/noticias">Noticias</a>
@@ -157,7 +158,7 @@ function Noticias(){
               </div>
             </section>
             <div className="footer">
-                <a class="nav-link" href="/"><img src="https://laextra.mx/wp-content/uploads/2016/04/Polici%CC%81a-Federal-PF.png" alt="Logo Policia" height="150" width="200"/></a>
+                <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia Michoacan" height="150" width="200"/></a>
                 <a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
                 <a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
                 <p><a href="/">Policia de Michoacán</a> © 2022. <a href="ojdana/*" target="_blank">Terminos y Condiciones</a></p>

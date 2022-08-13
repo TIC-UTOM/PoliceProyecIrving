@@ -2,10 +2,25 @@
     background-image: url(../images/background2.jpg);
     background-repeat: no-repeat;
     width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 550px) {
+    .banner-container {
+        background-image: url(../images/background2.jpg);
+        max-width: 100%;
+        height: 500px;
+    }
 }
 
 .nav-item {
     margin-top: 50px;
+}
+
+.navbar {
+    font-size: 30px;
+    font-family: "Helvetica Neue";
+    text-align: center;
 }
 
 .nav-link {
@@ -20,11 +35,12 @@
 }
 
 .banner-title1 {
-    font-size:10vw;
+    font-size:11vw;
     font-family: 'Chicago Police';
     color: #223a4d;
     position: relative;
-    top: -100px;
+    right: 100px;
+    margin: 10px 300px;
 }
 
 .creative {
@@ -36,7 +52,7 @@
     height: auto;
     text-align: center;
     padding: 3.5em;
-    font-size: 24px;
+    font-size:2vw;
     color: ffffff;
     position: absolute;
     top: 350px;
@@ -45,10 +61,37 @@
     height: auto;
 }
 
+@media screen and (max-width: 550px) {
+    .texto-informativo {
+        text-align: center;
+        padding: 3.5em;
+        font-size:2vw;
+        color: ffffff;
+        margin: -150px 0px;
+        position: absolute;
+    }
+}
+
 .policia-hdzz {
+    width: 100px;
+    height: 100px;
     position: relative;
-    left: 20px;
-    top: 60px;
+    left: 200px;
+    top: 240px;
+}
+
+@media screen and (max-width: 550px) {
+    .policia-hdzz {
+        position: relative;
+        margin: 0px -200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    img {
+    max-width: 500px;
+    max-height: 450px;
+   }
 }
 
 .info-policiahdzz {
@@ -58,19 +101,38 @@
     color:white;
     position: absolute;
     background-color: #223a4d;
-    top: 200px;
-    left: 500px;
+    top: 100px;
+    left: 300px;
 }
 
-.policia-lopez {
+@media screen and (max-width: 550px) {
+    .info-policiahdzz {
+        width: 500px;
+        height: 550px;
+        text-align: center;
+        color:white;
+        position: relative;
+        background-color: #223a4d;
+        margin: -100px -300px;
+    }
+}
+
+.policia-lopezz {
     width: 100px;
     height: 100px;
     position: relative;
     left: 200px;
-    top: 660px;
+    top: 740px;
 }
 
-.info-policialopez {
+@media screen and (max-width: 550px) {
+    .policia-lopezz {
+        position: relative;
+        margin: 250px -200px;
+    }
+}
+
+.info-policialopezz {
     text-align: center;
     color:white;
     width: 550px;
@@ -82,15 +144,34 @@
     top: 100px;
 }
 
-.policia-estrada {
+@media screen and (max-width: 550px) {
+    .info-policialopezz {
+        width: 500px;
+        height: 550px;
+        text-align: center;
+        color:white;
+        position: relative;
+        background-color: #223a4d;
+        margin: -100px -300px;
+    }
+}
+
+.policia-estradaa {
     width: 100px;
     height: 100px;
     position: relative;
     left: 200px;
-    top: 1100px;
+    top: 1180px;
 }
 
-.info-policia-estrada {
+@media screen and (max-width: 550px) {
+    .policia-estradaa {
+        position: relative;
+        margin: 340px -200px;
+    }
+}
+
+.info-policia-estradaa {
     text-align: center;
     color:white;
     width: 550px;
@@ -102,16 +183,23 @@
     top: 90px;
 }
 
-.seccion-abajo {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color:rgb(0, 0, 0); 
+@media screen and (max-width: 550px) {
+    .info-policia-estradaa {
+        width: 500px;
+        height: 550px;
+        text-align: center;
+        color:white;
+        position: relative;
+        background-color: #223a4d;
+        margin: -100px -300px;
+    }
 }
 
 .tecto-final {
     color:rgb(0, 0, 0);
     top: 1000px;
+    width: auto;
+    height: auto;
 }
 
 .footers {
