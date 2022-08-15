@@ -7,31 +7,33 @@ import oficial3 from '../images/policia3.png'
 import facebook from '../images/facebook.png'
 import twitter from '../images/gorjeo.png'
 import logopoli from '../images/policialogo.png'
+import { tabTitle } from '../utils/GeneralFunctions';
 
 function Inicio() {
+  tabTitle('Inicio');
 return (
     <div className="banner-container">
-          <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+          <nav class="navbar navbar-expand-lg  navbar-light">
               <div class="container-fluid justify-content-center">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                  <ul class="nav justify-content-center">
+                  <ul class="nav mx-auto">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/policias">Policias</a>
+                      <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                     </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/tenencias">Tenencias</a>
+                    <a class="nav-link" href="/policias">Policias</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia" height="150" width="150" /></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/noticias">Noticias</a>
+                    <a class="nav-link" href="/tenencias">Tenencias</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/apirest">Api Rest</a>
+                    <a class="nav-link" href="/noticias">Noticias</a>
                   </li>
                 </ul>
               </div>
@@ -51,13 +53,14 @@ return (
           <div className="policia-hdzz">
             <img className="img-hdz" src={oficial1} />
             <div className="info-policiahdzz">
-              <h2>
+              <h2 className="titulo-policiahdzz">
                 <span class="creative">Official</span><br/>
                 Antonio Hernandez
               </h2>
-              <p>Apenas dos meses después de graduarse de la Academia de Policía, el official Hernandez y su Oficial de Entrenamiento de Campo respondieron una llamada de violencia doméstica que amenazaba su vida. No solo para la víctima, sino también para los oficiales.</p>
+              <p>Este policía mexicano puede ser el más famoso de la ciudad y no solo por estar en uno de los 
+                lugares más concurridos por visitantes nacionales e Internacionales...</p>
               <div>
-                <a href="new/*"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
+                <a href="antonio-hernandez"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
               </div>
             </div>
           </div>
@@ -69,9 +72,11 @@ return (
                 <span class="creative">Official</span><br/>
                 Leticia Lopez
                 </h2>
-                <p>After finishing his shift, Officer Figueroa was on his way home when he noticed a man standing on an overpass bridge. Compelled to do the right thing, Officer Figueroa stopped to provide a helping hand.</p>
+                <p>Poder femenino al servicio de la ciudadanía. Esta elemento se ha ganado el 
+                  reconocimiento de sus compañeros por haber rescatado a una víctima de secuestro 
+                  enfrentando a los delincuentes, a sus 25 años de edad...</p>
                 <div>
-                <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
+                <a href="leticia-lopez"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
                 </div>
               </div>
             </div>
@@ -83,15 +88,17 @@ return (
                 <span class="creative">Official</span><br/>
                 Luis Estrada
                 </h2>
-                <p>After finishing his shift, Officer Figueroa was on his way home when he noticed a man standing on an overpass bridge. Compelled to do the right thing, Officer Figueroa stopped to provide a helping hand.</p>
+                <p>Con una historia más tranquila pero no por eso menos admirable, este policía bancario se ha 
+                  ganado su renombre entre los vecinos cercanos a una plaza, 
+                  donde un día normal en uno de sus rondines recurrentes, se dio cuenta... </p>
                 <div>
-                <a href="new"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
+                <a href="luis-estrada"><button type="tenencias" class="btn btn-outline-warning">Ver historia</button></a>
                 </div>
               </div>
             </div>
 
             <div className="seccion-abajo">
-              <h2>Compaartir tu historia</h2>
+              <h2 className="abajo">Compartir tu historia</h2>
               <h2>#PoliciasDeMichacán</h2>
               <p className="tecto-final">La misión del Departamento de Policía de Michoacán es servir, 
               guiar y proteger a la gente de esta ciudad todos los días. La mayoría de las veces, solo
@@ -100,13 +107,21 @@ return (
                compasión a veces se pasan por alto o se dan por sentados. Pero si tiene una historia que
                 le gustaría compartir, nos encantaría que la escuchara.<br/>
                 </p>
+              <footer class="pie-pagina">
+                <div class="grupo-1">
+                  <div class="box">
+                    <figure><a href="/"><img src={logopoli} alt="Logo Policia Michoacan" height="150" width="150"/></a></figure>
+                  </div>
+                  <div class="box">
+                    <figure><a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a></figure>
+                    <figure><a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a></figure>
+                  </div>
+                </div>
+                <div class="grupo-2">
+                <small><p><a href="/">Policia de Michoacán</a> © 2022. <a href="terminos-condiciones/*" target="_blank">Terminos y Condiciones</a></p></small>
+                </div>
+              </footer>
             </div>
-            <div className="footers">
-            <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia Michoacan" height="150" width="200"/></a>
-            <a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
-            <a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
-            <p><a href="/">Policia de Michoacán</a> © 2022. <a href="ojdana/*" target="_blank">Terminos y Condiciones</a></p>
-          </div>
     </div>
   )
 }

@@ -1,5 +1,5 @@
   import react from 'react';
-  import '../styles/ojdana.css';
+  import '../styles/terminos-condiciones.css';
 
   function Policias() {
     return (

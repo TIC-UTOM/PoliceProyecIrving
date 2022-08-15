@@ -3,10 +3,12 @@ import '../styles/noticias.css';
 import facebook from '../images/facebook.png'
 import twitter from '../images/gorjeo.png'
 import logopoli from '../images/policialogo.png'
+import { tabTitle } from '../utils/GeneralFunctions';
 
 
 
 function Noticias(){
+  tabTitle('Noticias');
   return (
     <div className="banner-contain">
       <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
@@ -15,9 +17,9 @@ function Noticias(){
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="nav justify-content-center">
+                <ul class="nav mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/figueroa">Policias</a>
+                    <a class="nav-link active" aria-current="page" href="/policias">Policias</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/tenencias">Tenencias</a>
@@ -51,7 +53,7 @@ function Noticias(){
                 <div class="card-body">
                   <h5 class="card-title">Denuncian asaltos en central de Autobuses de Maravatío</h5>
                   <p class="card-text">Maravatío, Michoacán.- Mediante redes sociales se han difundido presuntos asaltos en la Central de Autobuses de Maravatío.</p>
-                  <a href="newss"><button type="tenencias" class="btn btn-outline-warning">Ver mas...</button></a>
+                  <a href="asaltos"><button type="tenencias" class="btn btn-outline-warning">Ver mas...</button></a>
                 </div>
                 <div class="card-footer text-muted">
                 20 agosto, 2021
@@ -63,12 +65,12 @@ function Noticias(){
                   Noticias
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Presa de Tepuxtepec se encuentra a su máxima capacidad</h5>
-                  <p class="card-text">Maravatio, Michoacán.- Desde la madrugada y derivado de la lluvia intensa de este sábado...</p>
-                  <a href="newss"><button type="tenencias" class="btn btn-outline-warning">Ver mas...</button></a>
+                  <h5 class="card-title">En Tungareo, detiene Fiscalía General a presunto responsable de violación, cometido en agravio de su cuñada de 14 años</h5>
+                  <p class="card-text">Elementos de la Fiscalía detuvieron a un sujeto por su posible relación en el delito de Violación Agravada; ilícito perpetrado contra su cuñada de 14 años, en Tungareo.</p>
+                  <a href="presunto-responsable-de-violacion"><button type="tenencias" class="btn btn-outline-warning">Ver mas...</button></a>
                 </div>
                 <div class="card-footer text-muted">
-                19 septiembre, 2021
+                25 julio, 2022
                 </div>
               </div>
 
@@ -77,12 +79,12 @@ function Noticias(){
                 Noticias
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Investigan si hay michoacanos en tráiler de Texas</h5>
-                  <p class="card-text">La Secretaría del Migrante de Michoacán mantiene comunicación permanente con autoridades federales...</p>
-                  <a href="newss"><button type="tenencias" class="btn btn-outline-warning">Ver mas...</button></a>
+                  <h5 class="card-title">condenado a 16 años de cárcel por violar a su sobrina, en San Miguel</h5>
+                  <p class="card-text">San Miguel, Michoacán.- La Fiscalía General del Estado de Michoacán (FGE) obtuvo mediante procedimiento abreviado, sentencia condenatoria de 16 años y ocho meses de prisión...</p>
+                  <a href="condenado-a-16-anios-de-carcel"><button type="tenencias" class="btn btn-outline-warning">Ver mas...</button></a>
                 </div>
                 <div class="card-footer text-muted">
-                29 junio, 2022
+                14 julio, 2022
                 </div>
               </div>
 
@@ -157,12 +159,20 @@ function Noticias(){
               </div>
               </div>
             </section>
-            <div className="footer">
-                <a class="nav-link" href="/"><img src={logopoli} alt="Logo Policia Michoacan" height="150" width="200"/></a>
-                <a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a>
-                <a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a>
-                <p><a href="/">Policia de Michoacán</a> © 2022. <a href="ojdana/*" target="_blank">Terminos y Condiciones</a></p>
-              </div>
+            <footer class="pie-pagina">
+                <div class="grupo-1">
+                  <div class="box">
+                    <figure><a href="/"><img src={logopoli} alt="Logo Policia Michoacan" height="150" width="150"/></a></figure>
+                  </div>
+                  <div class="box">
+                    <figure><a class="nav-link" href="https://www.facebook.com/Pagina-de-prueba-103029978258656/?ref=pages_you_manage"><img src={facebook} alt="Logo Policia" height="30" width="30"/></a></figure>
+                    <figure><a class="nav-link" href="https://twitter.com/Irvinphantom"><img src={twitter} alt="Logo Policia" height="30" width="30"/></a></figure>
+                  </div>
+                </div>
+                <div class="grupo-2">
+                <small><p><a href="/">Policia de Michoacán</a> © 2022. <a href="terminos-condiciones/*" target="_blank">Terminos y Condiciones</a></p></small>
+                </div>
+              </footer>
     </div>
   )
 }

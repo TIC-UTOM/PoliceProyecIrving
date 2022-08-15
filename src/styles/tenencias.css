@@ -1,7 +1,15 @@
 .banner-containerr {
-    background-color: #10a6d4;  
+    background-color: #337bae;  
     width: 100%;
-    height: 1200px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 550px) {
+    .banner-containerr {
+        background-color: #10a6d4;  
+        max-width: 100%;
+        height: 500px;
+    }
 }
 
 .texto-informativos {
@@ -15,55 +23,53 @@
 }
 
 .policia-hdz {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     position: relative;
-    left: 200px;
-    top: 150px;
+    left: 150px;
+    top: 230px;
 }
 
 @media screen and (max-width: 550px) {
     .policia-hdz {
         position: relative;
-        margin: 0px -200px;
+        margin: -11px -200px;
     }
 }
 
 .info-policiahdz {
     width: 550px;
-    height: 550px;
+    height: 500px;
     text-align: center;
     color:white;
     position: absolute;
     background-color: #223a4d;
-    top: 100px;
-    left: 300px;
+    top: 150px;
+    left: 500px;
 }
 
 @media screen and (max-width: 550px) {
     .info-policiahdz {
         width: 500px;
-        height: 550px;
+        height: 500px;
         text-align: center;
         color:white;
         position: relative;
         background-color: #223a4d;
-        margin: -100px -300px;
+        margin: -150px -450px;
     }
 }
 
 .policia-lopez {
-    width: 100px;
-    height: 100px;
     position: relative;
-    left: 200px;
-    top: 660px;
+    left: 150px;
+    top: 330px;
 }
 
 @media screen and (max-width: 550px) {
     .policia-lopez {
         position: relative;
-        margin: 250px -200px;
+        margin: 244px -200px;
     }
 }
 
@@ -71,38 +77,35 @@
     text-align: center;
     color:white;
     width: 550px;
-    height: 490px;
+    height: 500px;
     position: absolute;
     background-color: #223a4d;
-    left: 300px;
-    right: 90px;
-    top: 100px;
+    top: 150px;
+    left: 500px;
 }
 
 @media screen and (max-width: 550px) {
     .info-policialopez {
         width: 500px;
-        height: 550px;
+        height: 500px;
         text-align: center;
         color:white;
         position: relative;
         background-color: #223a4d;
-        margin: -100px -300px;
+        margin: -150px -450px;
     }
 }
 
 .policia-estrada {
-    width: 100px;
-    height: 100px;
     position: relative;
-    left: 200px;
-    top: 1100px;
+    top: 490px;
+    left: 150px;
 }
 
 @media screen and (max-width: 550px) {
     .policia-estrada {
         position: relative;
-        margin: 340px -200px;
+        margin: -150px -150px;
     }
 }
 
@@ -110,45 +113,39 @@
     text-align: center;
     color:white;
     width: 550px;
-    height: 550px;
+    height: 500px;
     position: absolute;
     background-color: #223a4d;
-    left: 300px;
-    right: 90px;
-    top: 90px;
+    top: 150px;
+    left: 500px;
 }
 
 @media screen and (max-width: 550px) {
     .info-policia-estrada {
-        width: 500px;
-        height: 550px;
+        width: 550px;
+        height: 500px;
         text-align: center;
         color:white;
         position: relative;
         background-color: #223a4d;
-        margin: -100px -300px;
+        margin: -150px -500px;
     }
 }
 
-.seccion-abajo {
-    width: 100%;
+.seccion-abajoo {
     position: relative;
-    top: 1700px;
+    margin-top: 90px;
+    top: 800px;
     text-align: center;
     color:rgb(0, 0, 0); 
 }
 
-.tecto-final {
-    color:rgb(0, 0, 0);
-    top: 1000px;
-}
-
-.footers {
+.foooters {
     position: relative;
     align-items: center;
     justify-content: center;
     background-color: #223a4d;
-    top: 1800px;
+    top: 900px;
     text-align: center;
     color: rgb(0, 0, 0);
 }

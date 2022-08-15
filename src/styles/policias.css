@@ -13,13 +13,35 @@ section{
 }
 
 .texto-descriptivo {
-    width: auto;
+    width: 100%;
     text-align: center;
     padding: 3.5em;
     position: absolute;
     line-height: 1.5;
     height: auto;
-    margin: -290px 100px;
+    margin: 50px 100px;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 19px;
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.historia{
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+}
+
+.info{
+    width: auto;
+    height: auto;
+    margin-top: 30%;
 }
 
 @media screen and (max-width: 550px) {
@@ -28,7 +50,7 @@ section{
         padding: 3.5em;
         font-size:2vw;
         color: ffffff;
-        margin: -230px 0px;
+        margin: 50px 0px;
         position: absolute;
         left: 100px;
     }
@@ -39,12 +61,6 @@ section{
     height: 100vh;
     width: 100vh;
     text-align: center;
-}
-
-.info{
-    width: auto;
-    height: auto;
-    margin-top: 30%;
 }
 
 .nombres {
@@ -113,10 +129,6 @@ section{
     display: flex;
 }
 
-.creative {
-    color:#ecb419;
-}
-
 h1 {
     font-size:60px;
     width: 50%;
@@ -131,7 +143,7 @@ h1 {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: rgb(2, 0, 126);
+    background-color: #337bae;
     text-align: center;
 }
 

@@ -1,12 +1,12 @@
 .banner-contain {
-    background-color: #223a4d;  
+    background-color: #337bae;  
     max-width: auto;
     max-height: 1000px;
 }
 
 .pa-izquierda {
     background-color: #223a4d;
-    height: 3700px;
+    height: auto;
     width: 100vh;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .pa-derecha {
-    background-image: url(../images/policia2.2.png);
+    background-image: url(../images/kiosco.jpg);
     background-size: cover;
     background-position: center;
     width: 100vh;
@@ -26,12 +26,42 @@
     top: 0;
 }
 
-#pantallas-divididas {
-    display: flex;
+.pa-derecha-vio {
+    background-image: url(../images/violacion.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
 
-.creative {
-    color:#ecb419;
+.pa-derecha-bus {
+    background-image: url(../images/bus.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.pa-derecha-anios {
+    background-image: url(../images/carcel.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+
+#pantallas-divididas {
+    display: flex;
 }
 
 h1 {
@@ -39,18 +69,9 @@ h1 {
     width: 50%;
     margin: auto;
     margin-bottom: 40px;
-    color:#223a4d;
+    color:#ffffff;
     margin-top: 90px;
     
-}
-
-p {
-    font-size: 19px;
-    width: 50%;
-    margin: auto;
-    line-height: 30px;
-    color: #fff;
-    margin-top: 90px;
 }
 
 .card {
@@ -62,7 +83,3 @@ p {
 .card-text {
     color: rgb(255, 255, 255);
 }
-
-
-
-
